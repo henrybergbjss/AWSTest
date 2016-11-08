@@ -1,0 +1,15 @@
+<application xmlns="http://wadl.dev.java.net/2009/02" xmlns:ns="http://superbooks">
+ <grammars>
+  <include href="schemas/book.xsd"/>
+ </grammars>
+ <resources base="http://localhost:8080/">
+   <resource path="/bookstore/{id}" id="org.apache.cxf.jaxrs.systest.BookStore">
+     <param name="id" style="template"/>
+     <method name="GET" id="getBook">
+      <response>
+       <representation mediaType="application/xml" element="ns:thebook"/>
+      </response>
+    </method>
+   </resource>
+ </resources>  
+</application>

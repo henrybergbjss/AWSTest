@@ -1,0 +1,640 @@
+swagger: 2.0
+info:
+  version: 
+  title: flightstats.connections.wadl
+  description: 
+  license:
+    name: MIT
+    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
+host: api.flightstats.com
+basePath: /
+securityDefinitions: {}
+schemes:
+- https
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /json:
+    get:
+      description: 
+      operationId: Get_json_
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        200:
+          description: 
+  /xsd:
+    get:
+      description: 
+      operationId: Get_xsd_
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        200:
+          description: 
+  /wadl:
+    get:
+      description: 
+      operationId: Get_wadl_
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        200:
+          description: 
+  /firstflightout/{departureAirport}/to/{arrivalAirport}/leaving_after/{year}/{month}/{day}/{hour}/{minute}:
+    get:
+      description: 
+      operationId: Get_firstFlightOut_
+      produces:
+      - application/json
+      parameters:
+      - name: includeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: numHours
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxConnections
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeSurface
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: payloadType
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeCodeshares
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeMultipleCarriers
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxResults
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minimumConnectTime
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: extendedOptions
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appId
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appKey
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: departureAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: month
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: hour
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: year
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: format
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: arrivalAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: day
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minute
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      responses:
+        200:
+          description: 
+  /lastflightout/{departureAirport}/to/{arrivalAirport}/leaving_after/{year}/{month}/{day}/{hour}/{minute}:
+    get:
+      description: 
+      operationId: Get_lastFlightOut_
+      produces:
+      - application/json
+      parameters:
+      - name: includeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: numHours
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxConnections
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeSurface
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: payloadType
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeCodeshares
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeMultipleCarriers
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxResults
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minimumConnectTime
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: extendedOptions
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appId
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appKey
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: departureAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: month
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: hour
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: year
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: format
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: arrivalAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: day
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minute
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      responses:
+        200:
+          description: 
+  /firstflightin/{departureAirport}/to/{arrivalAirport}/arriving_before/{year}/{month}/{day}/{hour}/{minute}:
+    get:
+      description: 
+      operationId: Get_firstFlightIn_
+      produces:
+      - application/json
+      parameters:
+      - name: includeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: numHours
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxConnections
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeSurface
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: payloadType
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeCodeshares
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeMultipleCarriers
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxResults
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minimumConnectTime
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: extendedOptions
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appId
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appKey
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: departureAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: month
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: hour
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: year
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: format
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: arrivalAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: day
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minute
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      responses:
+        200:
+          description: 
+  /lastflightin/{departureAirport}/to/{arrivalAirport}/arriving_before/{year}/{month}/{day}/{hour}/{minute}:
+    get:
+      description: 
+      operationId: Get_lastFlightIn_
+      produces:
+      - application/json
+      parameters:
+      - name: includeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirports
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: excludeAirlines
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: numHours
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxConnections
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeSurface
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: payloadType
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeCodeshares
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: includeMultipleCarriers
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: maxResults
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minimumConnectTime
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: extendedOptions
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appId
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: appKey
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: departureAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: month
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: hour
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: year
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: format
+        in: query
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: arrivalAirport
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: day
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      - name: minute
+        in: path
+        required: false
+        x-is-map: false
+        type: string
+        description: 
+      responses:
+        200:
+          description: 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+
+
+
+	<table-filter match-schema="public" match-name="flights" />
+	<table-filter match-schema="public"
+		match-name="airline_notification" />
+
+	<table-filter match-schema="public" match-name="parks" />
+	<table-filter match-schema="public" match-name="parks_weather" />
+	<table-filter match-schema="public" match-name="quotes" />
+	<table-filter match-schema="public" match-name="tweet_summary" />
+	<table-filter match-schema="public" match-name="tweets" />
+	<table-filter match-schema="public" match-name="weather" />
+	<table schema="public" name="flights">
+		<primary-key></primary-key>
+	</table>
+</hibernate-reverse-engineering>

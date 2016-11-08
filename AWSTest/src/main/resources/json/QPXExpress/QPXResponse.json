@@ -1,0 +1,747 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "nMRZCOotu2INFA5fw0OfOO",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JFK",
+     "city": "NYC",
+     "name": "New York John F Kennedy International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LAX",
+     "city": "LAX",
+     "name": "Los Angeles International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LAX",
+     "name": "Los Angeles"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "NYC",
+     "name": "New York"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "32S",
+     "name": "Airbus A320"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_001",
+     "name": "US Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "B6",
+     "name": "Jetblue Airways Corporation"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VX",
+     "name": "Virgin America Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD229.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 377,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 377,
+        "flight": {
+         "carrier": "B6",
+         "number": "1123"
+        },
+        "id": "GT-pO3x1RTg99ZtL",
+        "cabin": "COACH",
+        "bookingCode": "Z",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LnSgTzguEjNBfwZu",
+          "aircraft": "32S",
+          "arrivalTime": "2016-07-08T22:47-07:00",
+          "departureTime": "2016-07-08T19:30-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 377,
+          "onTimePerformance": 80,
+          "mileage": 2468,
+          "meal": "Meal",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "ZH0ABEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "segmentId": "GT-pO3x1RTg99ZtL"
+       }
+      ],
+      "baseFareTotal": "USD200.00",
+      "saleFareTotal": "USD200.00",
+      "saleTaxTotal": "USD29.10",
+      "saleTotal": "USD229.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC B6 LAX 200.00ZH0ABEN USD 200.00 END ZP JFK XT 15.00US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T19:29-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD229.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 359,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 359,
+        "flight": {
+         "carrier": "B6",
+         "number": "1323"
+        },
+        "id": "GK-r-r1oamUh+Tnl",
+        "cabin": "COACH",
+        "bookingCode": "Z",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LmEmhLEeuPklEZsC",
+          "aircraft": "32S",
+          "arrivalTime": "2016-07-09T00:44-07:00",
+          "departureTime": "2016-07-08T21:45-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 359,
+          "onTimePerformance": 70,
+          "mileage": 2468,
+          "meal": "Meal",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "ZH0ABEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "segmentId": "GK-r-r1oamUh+Tnl"
+       }
+      ],
+      "baseFareTotal": "USD200.00",
+      "saleFareTotal": "USD200.00",
+      "saleTaxTotal": "USD29.10",
+      "saleTotal": "USD229.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC B6 LAX 200.00ZH0ABEN USD 200.00 END ZP JFK XT 15.00US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T16:45-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD229.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 358,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 358,
+        "flight": {
+         "carrier": "B6",
+         "number": "2023"
+        },
+        "id": "GDlgxzJ9JsmPIv1T",
+        "cabin": "COACH",
+        "bookingCode": "Z",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LcJR5ATDbnBMY9J6",
+          "aircraft": "32S",
+          "arrivalTime": "2016-07-09T01:43-07:00",
+          "departureTime": "2016-07-08T22:45-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 358,
+          "onTimePerformance": 80,
+          "mileage": 2468,
+          "meal": "Meal",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "ZH0ABEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AeR1zkWs6kGVNphcaxcwhETUcFYnnHAyvvGH9HOQhe2A",
+        "segmentId": "GDlgxzJ9JsmPIv1T"
+       }
+      ],
+      "baseFareTotal": "USD200.00",
+      "saleFareTotal": "USD200.00",
+      "saleTaxTotal": "USD29.10",
+      "saleTotal": "USD229.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC B6 LAX 200.00ZH0ABEN USD 200.00 END ZP JFK XT 15.00US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T17:45-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD598.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 371,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 371,
+        "flight": {
+         "carrier": "VX",
+         "number": "413"
+        },
+        "id": "GoanU+npEfdyW-gr",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LxTd+kgPx1FxRguT",
+          "aircraft": "320",
+          "arrivalTime": "2016-07-08T20:10-07:00",
+          "departureTime": "2016-07-08T16:59-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 371,
+          "onTimePerformance": 87,
+          "mileage": 2468,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ArUrcEhxcgR1HXJmbVgguspKY9kQxp5KLwn8+Cqx9",
+        "carrier": "VX",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "BQNR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ArUrcEhxcgR1HXJmbVgguspKY9kQxp5KLwn8+Cqx9",
+        "segmentId": "GoanU+npEfdyW-gr"
+       }
+      ],
+      "baseFareTotal": "USD543.26",
+      "saleFareTotal": "USD543.26",
+      "saleTaxTotal": "USD54.84",
+      "saleTotal": "USD598.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD40.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC VX LAX 543.26BQNR USD 543.26 END ZP JFK XT 40.74US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T16:58-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD598.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 365,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 365,
+        "flight": {
+         "carrier": "VX",
+         "number": "415"
+        },
+        "id": "GayLlbH7ARL5A3wH",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L7DG7PfbOZ54Nbsy",
+          "aircraft": "320",
+          "arrivalTime": "2016-07-08T23:25-07:00",
+          "departureTime": "2016-07-08T20:20-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 365,
+          "onTimePerformance": 90,
+          "mileage": 2468,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ArUrcEhxcgR1HXJmbVgguspKY9kQxp5KLwn8+Cqx9",
+        "carrier": "VX",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "BQNR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ArUrcEhxcgR1HXJmbVgguspKY9kQxp5KLwn8+Cqx9",
+        "segmentId": "GayLlbH7ARL5A3wH"
+       }
+      ],
+      "baseFareTotal": "USD543.26",
+      "saleFareTotal": "USD543.26",
+      "saleTaxTotal": "USD54.84",
+      "saleTotal": "USD598.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD40.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC VX LAX 543.26BQNR USD 543.26 END ZP JFK XT 40.74US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T20:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1328.10",
+    "id": "OuvmQZ9iHa9VJJstcuDdsI006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 375,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 375,
+        "flight": {
+         "carrier": "B6",
+         "number": "623"
+        },
+        "id": "G1UM3hYxJSM1kvFT",
+        "cabin": "BUSINESS",
+        "bookingCode": "C",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LfCeyZN4c9Rfl5QW",
+          "aircraft": "32S",
+          "arrivalTime": "2016-07-08T20:04-07:00",
+          "departureTime": "2016-07-08T16:49-04:00",
+          "origin": "JFK",
+          "destination": "LAX",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 375,
+          "mileage": 2468,
+          "meal": "Meal",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ae6S4IwC+NylSaNkNSUuas2aH0b52Q9P5maxDNlE",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "LAX",
+        "basisCode": "CBZ"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ae6S4IwC+NylSaNkNSUuas2aH0b52Q9P5maxDNlE",
+        "segmentId": "G1UM3hYxJSM1kvFT"
+       }
+      ],
+      "baseFareTotal": "USD1222.33",
+      "saleFareTotal": "USD1222.33",
+      "saleTaxTotal": "USD105.77",
+      "saleTotal": "USD1328.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD91.67"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "NYC B6 LAX 1222.33CBZ USD 1222.33 END ZP JFK XT 91.67US 4.00ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2016-07-08T16:48-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

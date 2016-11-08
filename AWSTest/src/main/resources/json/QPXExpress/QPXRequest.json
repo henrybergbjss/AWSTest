@@ -1,0 +1,36 @@
+{
+  "request": {
+    "slice": [
+      {
+        "origin": "JFK",
+        "destination": "LAX",
+        "date": "2016-07-07",
+        "maxStops": 0,
+        "preferredCabin": "COACH",
+        "alliance": "ONEWORLD",
+        "permittedDepartureTime": {
+          "earliestTime": "00:00",
+          "latestTime": "00:00"
+        },
+        "permittedCarrier": [
+          "UA"
+        ],
+        "prohibitedCarrier": [
+          "XX"
+        ],
+        "maxConnectionDuration": 20
+      }
+    ],
+    "passengers": {
+      "adultCount": 1,
+      "infantInLapCount": 0,
+      "infantInSeatCount": 0,
+      "childCount": 0,
+      "seniorCount": 0
+    },
+    "solutions": 20,
+    "maxPrice": "1",
+    "saleCountry": "US",
+    "refundable": false
+  }
+}
